@@ -31,3 +31,4 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git init
 echo hello PostgreSQL
+psql --username=freecodecamp --dbname=postgres
