@@ -195,3 +195,11 @@ __vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
 trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 psql --username=freecodecamp --dbname=mario_database
+git init
+git status
+git remote -v
+git remote add origin https://github.com/say-ahmedi/mario_db_psql.git
+git remote remove origin
+git remote -v
+git status
+git add .
