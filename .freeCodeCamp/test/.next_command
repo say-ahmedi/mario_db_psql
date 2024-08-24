@@ -210,3 +210,17 @@ git push origin main
 git push
 git remote add .
 git add .
+git status
+git commit -m 'modified stages'
+git push
+git push main
+git push origin
+git push --set-upstream origin main
+git remote -v
+git push example main
+git remote remove example
+git remote -v
+git remote add origin https://github.com/say-ahmedi/mario_db_psql.git
+git remote -v
+git status
+git add .
