@@ -203,3 +203,10 @@ git remote remove origin
 git remote -v
 git status
 git add .
+git commit -m 'Database added to the repo'
+git status
+git branch
+git push origin main
+git push
+git remote add .
+git add .
